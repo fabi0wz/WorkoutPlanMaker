@@ -14,7 +14,13 @@ const routes = [
     { path: '/about', component: About },
     { path: '/login', component: Login },
     { path: '/signup', component: SignUp},
-    { path: '/recover', component: RecoverPassword}
+    { path: '/recover', component: RecoverPassword},
+    
+    // TROCAR /HOME PARAR / QUANDO ACABAR TESTES
+    //
+    { path: '/home', component: Home}
+    //
+    /////////////////////////////////////////////
 ]
 
 const router = createRouter({

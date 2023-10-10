@@ -74,10 +74,13 @@ export default {
       <RouterLink to="/signup">Create Account</RouterLink>
       </button>
       <div>
-        <RouterLink to="/recover"> Forgot Password</RouterLink>
+        <RouterLink to="/recover">Forgot Password</RouterLink>
       </div>
       <div>
         <img src="../assets/google.svg" @click="signInWithGoogle"/>
+      </div>
+      <div>
+        <RouterLink to="/home">Home</RouterLink>
       </div>
     </div>
 
